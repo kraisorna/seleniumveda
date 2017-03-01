@@ -22,7 +22,7 @@ public class VedaTest {
 	public void testVedaPartner() throws InterruptedException{
 		// Optional, if not specified, WebDriver will search your path for
 		System.setProperty("webdriver.chrome.driver",
-				"D:/Software Development Consulting/Testing/selenium/chromedriver.exe");
+				"D:/your path/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://partner.vedanetwork.com/");
@@ -40,7 +40,7 @@ public class VedaTest {
 	public void testAffiliate() throws InterruptedException{
 		// Optional, if not specified, WebDriver will search your path for
 		System.setProperty("webdriver.chrome.driver",
-				"D:/Software Development Consulting/Testing/selenium/chromedriver.exe");
+				"D:/your path/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://partner.vedanetwork.com/signup/");
@@ -91,7 +91,7 @@ public class VedaTest {
 	public void testGoogleSearch() throws InterruptedException{
 		// Optional, if not specified, WebDriver will search your path for
 		System.setProperty("webdriver.chrome.driver",
-				"D:/Software Development Consulting/Testing/selenium/chromedriver.exe");
+				"D:/your path/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com/xhtml");
